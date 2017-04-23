@@ -15,7 +15,7 @@
     "rimraf": "^2.6.1"
   },
   "dependencies": {
-    "badabloom": "git://github.com/indutny/badabloom.git",
+    "badabloom": "git://github.com/hyperbloom/badabloom.git",
     "obuf": "^1.1.1"
   }
 }
