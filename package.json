@@ -1,0 +1,21 @@
+{
+  "name": "hyperbloom-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/storage.js",
+  "scripts": {
+    "test": "mocha --reporter=spec test/*-test.js"
+  },
+  "keywords": [],
+  "author": "Fedor Indutny <fedor@indutny.com> (http://darksi.de/)",
+  "license": "MIT",
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "badabloom": "git://github.com/indutny/badabloom.git",
+    "obuf": "^1.1.1"
+  }
+}
