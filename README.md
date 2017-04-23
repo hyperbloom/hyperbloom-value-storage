@@ -1,4 +1,4 @@
-# hyperbloom-storage
+# hyperbloom-value-storage
 
 **WORK IN PROGRESS/EXPERIMENTAL**
 

@@ -4,7 +4,7 @@ const assert = require('assert');
 
 const Storage = require('../');
 
-describe('hyperbloom-storage', () => {
+describe('hyperbloom-value-storage', () => {
   it('should work without backend', (cb) => {
     const s = new Storage();
 

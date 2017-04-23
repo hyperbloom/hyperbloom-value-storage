@@ -1,5 +1,5 @@
 {
-  "name": "hyperbloom-storage",
+  "name": "hyperbloom-value-storage",
   "version": "1.0.0",
   "description": "",
   "main": "lib/storage.js",
