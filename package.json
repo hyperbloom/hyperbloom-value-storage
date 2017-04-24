@@ -1,12 +1,16 @@
 {
   "name": "hyperbloom-value-storage",
   "version": "1.0.0",
-  "description": "",
+  "description": "HyperBloom append-only storage for values",
   "main": "lib/storage.js",
   "scripts": {
     "test": "mocha --reporter=spec test/*-test.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hyperbloom/hyperbloom-value-storage.git"
+  },
+  "keywords": [ "hyperbloom", "value", "storage", "append-only" ],
   "author": "Fedor Indutny <fedor@indutny.com> (http://darksi.de/)",
   "license": "MIT",
   "devDependencies": {
@@ -15,7 +19,7 @@
     "rimraf": "^2.6.1"
   },
   "dependencies": {
-    "badabloom": "git://github.com/hyperbloom/badabloom.git",
+    "badabloom": "^1.0.0",
     "obuf": "^1.1.1"
   }
 }
