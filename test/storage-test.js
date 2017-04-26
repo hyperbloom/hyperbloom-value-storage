@@ -15,4 +15,23 @@ describe('hyperbloom-value-storage', () => {
       cb();
     });
   });
+
+  it('should verify values', (cb) => {
+    const s = new Storage({
+      verify: (raw) => {
+        return raw[0] === 1;
+      }
+    });
+
+    s.load(() => {
+      s.bulkInsert([
+        Buffer.from('0001', 'hex'),
+        Buffer.from('0102', 'hex')
+      ]);
+      assert(!s.has(Buffer.from('0001', 'hex')));
+      assert(s.has(Buffer.from('0102', 'hex')));
+
+      cb();
+    });
+  });
 });
